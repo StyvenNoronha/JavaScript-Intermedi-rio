@@ -7,7 +7,6 @@ console.log(texto.toUpperCase());//tudo maiúsculo
 console.log(texto.toLowerCase());//tudo minúsculo
 */
 
-
 //**Obtendo o comprimento de uma string
 
 /*
@@ -26,18 +25,13 @@ let value = 12345;
 console.log(value.toString().length);
 */
 
-
 //**Substituindo e fatiando um texto
 /*
 let message = "Estou aprendendo JavaScript";
-//substituindo parte de um texto
-console.log(message.replace("JavaScript","JS"))
+console.log(message.replace("JavaScript","JS")) //substituindo parte de um texto
 
-//Extraindo uma parte da string (start, end)
-let message = "Estou aprendendo JavaScript";
-
-//posição 0 ate a 5 do inicio ao fim
-console.log(message.slice(0,5))
+let message = "Estou aprendendo JavaScript"; //Extraindo uma parte da string (start, end)
+console.log(message.slice(0,5)) //posição 0 ate a 5 do inicio ao fim
 
 //extraindo uma parte d string de trás para frente
 console.log(message.slice(-10))
@@ -73,16 +67,11 @@ let join = separate.join(" - ")
 console.log(join)
 */
 
-let message = "Estou estudando os fundamentos do javascript"
+let message = "Estou estudando os fundamentos do javascript";
 
-//Obtem a posição da palavra
-console.log(message.indexOf("javascript"))
+//Obtém a posição da palavra
+console.log(message.indexOf("javascript"));
 //Quando não encontra ele devolve -1
 //verifica se existe a palavra na string
-console.log(message.includes("javascript"))
+console.log(message.includes("javascript"));
 //se não achar com o includes ele devolve -1
-
-
-
-
-
